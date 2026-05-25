@@ -1,0 +1,18 @@
+Singleton - Instead of creating objects everytime needed... just we create the single object and uses it as a instance...
+            for example.. instead of creating the db connection everytime.. we connect it once and make use of it instances
+
+Factory - If we wanna call some objects like 10 or 20.. instead of writing the new keyword and creating the objects... just use
+            this factory.. where it make use of conditional or loop statements to take up this task...
+    
+Builder - Makes the tasks easier instead of passing the more parameters to set the values...
+
+Adapter - It makes the two incompatible functionalities to work together... as like if we comes under to the payment system..
+          if we are using the razorpay, stripe or any other thing.. the methods in each of them is different.. instead of creating
+          different methods or changing its functionalities... we can use adapter to connecte the two incompatible system..
+        
+Decorator - It is used to add some more behavior to the methods.. without changing the actual behavior of system...
+            like.. if we have pizza.. it will add the cheese to it aditionally.. without modifying the entire pizza..
+
+Strategy - Dynamically switch algorithms/behavior at a runtime..
+
+Observe - Used to notify multiple objects at a time whenever the changes happens
